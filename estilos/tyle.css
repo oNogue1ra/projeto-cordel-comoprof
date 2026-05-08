@@ -51,10 +51,14 @@ header a:hover footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1em;
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.texto {
@@ -65,11 +69,24 @@ section.texto {
 section.imagem {
     background-color: rgb(45, 45, 45);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.444);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.264);
+    background-color: rgba(0, 0, 0, 0.421);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#joaninha {
+    background-image: url(../images/background001.jpg);
+    background-position: right center;
+}
+
+section#jornal {
+    background-image: url(../images/background002.jpg);
 }
 
 footer {
